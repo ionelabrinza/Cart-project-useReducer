@@ -28,7 +28,7 @@ const AppProvider = ({ children }) => {
   };
 
   const decrease = (id) => {
-    dispatch({ type: 'Decrease', payload: id });
+    dispatch({ type: 'DECREASE', payload: id });
   };
 
   return (
